@@ -1,7 +1,8 @@
-import Head from "next/head";
+import Head from 'next/head';
 import { Component } from 'react';
-import { attributes, react as HomeContent } from "../content/home.md";
-import Navigation from "../src/patterns/Navigation";
+import { attributes, react as HomeContent } from '../content/home.md';
+import Navigation from '../src/patterns/Navigation';
+import Hero from '../src/patterns/Hero';
 
 export default class Home extends Component {
   render() {
@@ -12,6 +13,7 @@ export default class Home extends Component {
           <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         </Head>
         <Navigation />
+        <Hero />
         <article className="container">
           <h1>{title}</h1>
           <HomeContent />
@@ -25,6 +27,6 @@ export default class Home extends Component {
           </ul>
         </article>
       </>
-    )
+    );
   }
 }
