@@ -13,16 +13,22 @@ const Hero = () => {
     <>
       <HeroStyled>
         <div className="container">
-          <div className="row d-flex justify-content-center align-items-center">
-            <div className="col-7 col-md-7">
+          <div className="row d-flex justify-content-center align-items-center pt-5">
+            <div className="col-12 col-md-7 col-sm-12">
               <h1>Aooopa! Julitos aqui!</h1>
               <p>
-                Bora falar um pouco sobre as tecnologias e assuntos aleatorios?
-                Entao da uma olhadinha nos artigos ali em baixo! Garanto que
-                voce deve achar uma leitura bacana pro seu dia!!
+                Neste blog eu tenho a missão de compartilhar tudo sobre o mundo
+                de desenvolvimento de software e tecnologia. Aqui você encontra
+                minhas experiências e dicas sobre linguagens de programação,
+                frameworks, ferramentas e técnicas para quem quer se atualizar e
+                melhorar suas habilidades. Falo também sobre as tendências mais
+                recentes em tecnologia e curiosidades interessantes sobre o
+                mundo da programação e afins, além de informações sobre eventos
+                e conferências da área.. Se você gosta de programação e quer
+                expandir seus conhecimentos, vem comigo!
               </p>
             </div>
-            <div className="col-5 col-md-5">
+            <div className="col-12 col-md-5 col-sm-12">
               <DisplayLottie animationPath="./lottie/blog-hero.json" />
             </div>
           </div>
@@ -31,7 +37,7 @@ const Hero = () => {
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#14C38E"
-          fill-opacity="1"
+          fillOpacity="1"
           d="M0,0L34.3,10.7C68.6,21,137,43,206,69.3C274.3,96,343,128,411,128C480,128,549,96,617,101.3C685.7,107,754,149,823,160C891.4,171,960,149,1029,165.3C1097.1,181,1166,235,1234,266.7C1302.9,299,1371,309,1406,314.7L1440,320L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"
         ></path>
       </svg>

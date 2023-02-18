@@ -4,11 +4,6 @@ const StyledNavBar = styled.nav`
   background-color: #eff0f3;
 `;
 
-const SearchBar = styled.nav`
-  background-color: #eff0f3;
-  border-bottom: 1px solid #e0e0e0;
-`;
-
 const NavBarBrand = styled.a`
   font-family: Pumpkin;
   text-transform: capitalize;
@@ -23,7 +18,7 @@ const NavBarBrand = styled.a`
 const Navigation = () => {
   return (
     <>
-      <StyledNavBar className="navbar navbar-expand-lg bg-body-tertiary">
+      <StyledNavBar className="navbar navbar-expand-lg bg-body-tertiary sticky-top">
         <div className="container">
           <NavBarBrand className="navbar-brand" href="#">
             Julio<span>.blog</span>
@@ -39,10 +34,7 @@ const Navigation = () => {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div
-            className="collapse navbar-collapse d-flex justify-content-end"
-            id="navbarNavAltMarkup"
-          >
+          <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
               <a className="nav-link active" aria-current="page" href="#">
                 Home
